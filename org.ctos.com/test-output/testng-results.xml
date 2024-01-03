@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="7" total="9" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-03T15:00:34 IST" name="Suite" finished-at="2024-01-03T15:01:23 IST" duration-ms="48545">
+    <groups>
+    </groups>
+    <test started-at="2024-01-03T15:00:34 IST" name="Test" finished-at="2024-01-03T15:01:23 IST" duration-ms="48545">
+      <class name="CID.CID_Baseclass">
+        <test-method is-config="true" signature="setUpSuite(java.lang.String)[pri:0, instance:CID.CID_Baseclass@53941c2f]" started-at="2024-01-03T15:00:34 IST" name="setUpSuite" finished-at="2024-01-03T15:00:34 IST" duration-ms="251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CID_SIT_env]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:CID.CID_Baseclass@53941c2f]" started-at="2024-01-03T15:01:23 IST" name="afterSuite" finished-at="2024-01-03T15:01:23 IST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- CID.CID_Baseclass -->
+      <class name="CID.CID_Runner">
+        <test-method is-config="true" signature="get_data()[pri:0, instance:CID.CID_Runner@73194df]" started-at="2024-01-03T15:00:34 IST" name="get_data" finished-at="2024-01-03T15:00:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_data -->
+        <test-method signature="User_customer(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:CID.CID_Runner@73194df]" started-at="2024-01-03T15:00:34 IST" name="User_customer" data-provider="New_customer" finished-at="2024-01-03T15:01:22 IST" duration-ms="47718" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New_customer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Request]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[loginId]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[New user created]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[java.lang.AssertionError: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='m'][1]//div[text()='Verify Your Login']"}
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cabdbff02404d74781c9c96577d8fd58, findElement {using=xpath, value=//div[@class='m'][1]//div[text()='Verify Your Login']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\SHEIKU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53188}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53188/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cabdbff02404d74781c9c96577d8fd58]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: java.lang.AssertionError: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='m'][1]//div[text()='Verify Your Login']"}
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cabdbff02404d74781c9c96577d8fd58, findElement {using=xpath, value=//div[@class='m'][1]//div[text()='Verify Your Login']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\SHEIKU~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53188}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53188/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cabdbff02404d74781c9c96577d8fd58
+at org.testng.Assert.fail(Assert.java:99)
+at CID.CID_Test.New_customer(CID_Test.java:218)
+at CID.CID_Runner.User_customer(CID_Runner.java:85)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User_customer -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:CID.CID_Runner@73194df]" started-at="2024-01-03T15:01:22 IST" name="setUp" finished-at="2024-01-03T15:01:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="get_data()[pri:0, instance:CID.CID_Runner@73194df]" started-at="2024-01-03T15:01:22 IST" name="get_data" finished-at="2024-01-03T15:01:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_data -->
+        <test-method signature="User_customer(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:CID.CID_Runner@73194df]" started-at="2024-01-03T15:01:22 IST" name="User_customer" data-provider="New_customer" finished-at="2024-01-03T15:01:23 IST" duration-ms="669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User_Dashboard]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Request]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[SUCCESS]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[cid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User_customer -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:CID.CID_Runner@73194df]" started-at="2024-01-03T15:01:23 IST" name="setUp" finished-at="2024-01-03T15:01:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- CID.CID_Runner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

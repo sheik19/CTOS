@@ -1,0 +1,14 @@
+{
+  "phoneNumber": "60103826131",
+  "phoneDefaultCountryCode": "MY",
+  "cleansingFlag": true,
+  "eventType": "ACCOUNT_CREATION",
+  "packages": [
+    "PHONE_BASIC"
+  ],
+  "consentDetails": {
+    "consentId": "12W4HD",
+    "consentTimestamp": "2022-02-17T16:07:49Z",
+    "consentType": "TOC"
+  }
+}

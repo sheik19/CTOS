@@ -1,0 +1,1 @@
+{"uuid":"583e7847-4db3-4b4b-b25b-be7c85394946","name":"DFP.DFP_Baseclass.get_data","children":["a19b2708-5d6b-4195-b005-7a3116a00208"],"description":"","befores":[{"name":"get_data","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1694505963285,"stop":1694505963285}],"afters":[],"start":1694505963285,"stop":1694505963285}

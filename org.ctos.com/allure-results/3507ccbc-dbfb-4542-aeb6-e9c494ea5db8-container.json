@@ -1,0 +1,1 @@
+{"uuid":"3507ccbc-dbfb-4542-aeb6-e9c494ea5db8","name":"CID.CID_Baseclass.get_data","children":["3d088c8d-fd6c-4f1b-ba9b-503905dd13a5"],"description":"","befores":[{"name":"get_data","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1704268684900,"stop":1704268684900}],"afters":[],"start":1704268684900,"stop":1704268684900}

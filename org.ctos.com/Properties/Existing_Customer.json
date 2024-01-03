@@ -1,0 +1,27 @@
+{
+    "email":"takmur_12@yopmail.com",
+    "gender":"L",
+    "fullUserName":"Gokul",
+    "nationality":"MY",
+     "consentAuthorizationTimestamp":"2023-11-02 10:56:00",
+    "ekycData":{
+            "kycLevel":"EKYC",
+            "ekycIdNumber":"870111222222",
+            "ekycIdType":"myKad",
+            "ekycNationality":"MY",
+            "ekycBirthday":"30-12-1987",
+            "occupationType": "Manager",
+            "ekycAddress": {
+            "address1": "BAngsarSouth",
+            "address2": "Kerinchi",
+            "city": "JOHOR BARU",
+            "state": "Johor",
+            "country": "Malaysia",
+            "postalCode": "59200"
+        }
+    },
+    "contactInfos":[{
+        "contactNo":"0186660555",
+        "contactType":"MOBILE_PHONE"
+    }]
+}
